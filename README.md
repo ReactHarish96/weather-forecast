@@ -31,6 +31,24 @@ npm start
 
 The application will start in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+### Troubleshooting
+
+If you encounter any issues running the application:
+
+1. Clear your node_modules and reinstall dependencies:
+```bash
+rm -rf node_modules
+npm cache clean --force
+npm install
+```
+
+2. Ensure you're in the correct directory:
+```bash
+cd weather-forecast
+```
+
+3. Check if port 3000 is already in use. If so, the development server will automatically try to use the next available port.
+
 ### Key Features
 - City-based weather search
 - Weather condition display
