@@ -1,5 +1,4 @@
-// You'll need to get your API key from WeatherAPI.com
-const API_KEY = 'aaecd2b9c07a4492873112352250607' // Replace with your WeatherAPI.com key
+const API_KEY = 'aaecd2b9c07a4492873112352250607' // WeatherAPI.com key
 const BASE_URL = 'https://api.weatherapi.com/v1'
 
 // Action Types

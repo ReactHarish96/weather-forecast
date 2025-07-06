@@ -56,17 +56,13 @@ const initialState = loadState() || {
   searchHistory: [],
   loading: false,
   error: null,
-  // City suggestions state
   suggestions: [],
   suggestionsLoading: false,
   suggestionsError: null,
-  // Theme state
-  theme: 'dark', // default to dark theme
-  // Offline/retry state
+  theme: 'dark',
   isOffline: false,
   retryCount: 0,
   lastQuery: null,
-  // Track active search item
   activeSearchItem: null
 }
 
@@ -81,7 +77,7 @@ const addToHistoryHelper = (history, newEntry) => {
     // Update the existing entry's weather data but keep its position
     newHistory[existingIndex] = {
       ...newEntry,
-      timestamp: newHistory[existingIndex].timestamp // Keep original timestamp to maintain order
+      timestamp: newHistory[existingIndex].timestamp
     }
     return newHistory
   }
