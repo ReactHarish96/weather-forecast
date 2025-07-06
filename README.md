@@ -29,7 +29,7 @@ To run the application locally:
 npm start
 ```
 
-The application will start in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+The application will start in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Key Features
 - City-based weather search
